@@ -14,6 +14,11 @@ const books = [
   ];
 //userBooks=books.filter((bk)=> bk.genre=="History");
  // console.log(userBooks)
-  let  userBooks=books.filter((bk)=>{ return bk.publish>=1995 && bk.genre==="History"})
-  console.log(userBooks)
-
+  //let  userBooks=books.filter((bk)=>{ return bk.publish>=1995 && bk.genre==="History"})
+ // console.log(userBooks)
+const myNumbers=[1,2,3,4,5,6,7,8,9,10]
+const newNums=myNumbers.
+                        map((num)=>num*10).
+                        map((num)=>num+1).
+                        filter((num)=>num>=40)
+console.log(newNums)
